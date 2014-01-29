@@ -116,7 +116,7 @@ img {
 	font-weight: bold;
 	text-decoration: none;
 	border: none;
-	background: url(https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/templatemo_button_01.png) no-repeat;
+	background: url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/templatemo_button_01.png) no-repeat;
 }
 
 .rc_btn_02 a {
@@ -132,7 +132,7 @@ img {
 	font-weight: bold;
 	text-decoration: none;
 	border: none;
-	background: url(https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/templatemo_button_02.jpg) no-repeat;
+	background: url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/templatemo_button_02.jpg) no-repeat;
 }
 
 #tbox {
@@ -188,7 +188,7 @@ font-weight: bold;
 }
 
 #templatemo_header_wrapper {
-	 background: url("https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/templatemo_header_bg.jpg") repeat-x scroll 0 0 / cover rgba(0, 0, 0, 0);
+	 background: url("https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/templatemo_header_bg.jpg") repeat-x scroll 0 0 / cover rgba(0, 0, 0, 0);
     margin: 0 auto;
     width: 100%;
 }
@@ -206,7 +206,7 @@ font-weight: bold;
 }
 
 #templatemo_header #logo {
-	background: url("https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/logo.png") no-repeat scroll 0 top/ contain
+	background: url("https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/logo.png") no-repeat scroll 0 top/ contain
 		rgba(0, 0, 0, 0);
 	height: 87px; 
 	width: 220px; 
@@ -244,7 +244,7 @@ font-weight: bold;
 	width: 980px;
 	height: 335px;
 	margin: 0 auto;
-	background: #000000 url(https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/templatemo_banner_bg.jpg) no-repeat;
+	background: #000000 url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/templatemo_banner_bg.jpg) no-repeat;
 }
 
 #templatemo_banner #banner_content {
@@ -270,7 +270,7 @@ font-weight: bold;
 	width: 100%;
 	height: 150px;
 	margin: 0 auto;
-	background: url(https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/templatemo_content_top_bg.jpg) repeat-x;
+	background: url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/templatemo_content_top_bg.jpg) repeat-x;
 }
 
 #templatemo_content_top {
@@ -328,7 +328,7 @@ font-weight: bold;
 	position: relative;
 	width: 441px;
 	height: 170px;
-	background: url(https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/templatemo_frame_01.png) no-repeat;
+	background: url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/templatemo_frame_01.png) no-repeat;
 }
 
 .image_wrapper_01 img {
@@ -346,7 +346,7 @@ font-weight: bold;
 .section_w140 .project_icon {
 	width: 135px;
 	height: 140px;
-	background: url(https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/templatemo_project_icon.jpg) no-repeat;
+	background: url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/templatemo_project_icon.jpg) no-repeat;
 }
 
 .section_w220 {
@@ -377,7 +377,7 @@ font-weight: bold;
 .other_project_list li {
 	margin: 0 0 0 0;
 	padding: 5px 0 3px 25px;
-	background: url(https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/templatemo_list_icon.jpg) left center no-repeat;
+	background: url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/templatemo_list_icon.jpg) left center no-repeat;
 }
 
 .other_project_list li a {
@@ -397,7 +397,7 @@ font-weight: bold;
 	font-size: 18px;
 	text-align: center;
 	margin: 0 auto;
-	background: url(https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/footer12.png) no-repeat;
+	background: url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/footer12.png) no-repeat;
 	/* background: #ffffff;
 border-top: 12px solid #D60000; */
 }
@@ -625,7 +625,7 @@ margin: 0;
 
 /*box shadow*/
 #image {
-	background-image: url('https://rawgithub.com/siddappa/arka2/master/WebContent/arkaapp/images/background.jpg');
+	background-image: url('https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/background.jpg');
 	width: 250px;
 	height: 450px;
 	margin: 0 auto;
