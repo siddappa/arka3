@@ -163,7 +163,7 @@ margin: 0 auto;
 	
 	background: rgb(82, 83, 87);
 	border: solid 5px;
-
+  overflow: hidden;
 }
 }
 
@@ -319,7 +319,7 @@ transition: color 0.25s ease-in-out;
 	 font-family: niconne !important;
     font-size: 35px;
     margin: -50px 0px 1px 654px;
-    position: absolute;  
+    position: relative;  
     z-index: 100;
     color: red;
  white-space: nowrap ;
