@@ -1,0 +1,61 @@
+a.css3dbutton {
+    background: #f70000; /* background color of button */
+    color: white;
+    text-decoration: none;
+    width: 132px;
+ 
+	text-align: center;
+    
+    font: bold 15px Arial; /* font size and style */
+    position: relative;
+	left:-10px;
+		top: 35px; /* anchor main button's position */
+    bottom: -1px; /* Depth of 3D effect. :after pseudo element inherits this value so it's animated in Chrome. See: kizu.ru/en/pseudos */
+		margin-bottom: 12px;
+    -moz-box-shadow: 0 -15px 5px darkred inset;
+    -webkit-box-shadow: 0 -15px 5px darkred inset;
+    box-shadow: 0 -15px 5px darkred inset;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a.css3dbutton, a.css3dbutton:after {
+    display: inline-block;
+    padding: 8px 13px; /* vertical and horizontal padding of button */
+    -moz-border-radius: 8px/15px;
+    -webkit-border-radius: 8px/15px;
+    border-radius: 8px/15px;
+    outline: none;
+}
+
+a.css3dbutton:after { /* pseudo element to construct 3D side of button */
+    content: "";
+    position: absolute;
+    padding: 0;
+    z-index: -1;
+    bottom: inherit; /* Inherit main button bottom value to animate it. See: kizu.ru/en/pseudos */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFC8C8; /* background color of 3D effect */
+    -moz-box-shadow: 1px 0 3px gray;
+    -webkit-box-shadow: 1px 0 3px gray;
+    box-shadow: 1px 0 3px gray;
+}
+
+a.css3dbutton:hover {
+    -moz-box-shadow: 0 25px 5px rgba(182, 64, 61, 0.7) inset;
+    -webkit-box-shadow: 0 25px 5px rgba(182, 64, 61, 0.7) inset;
+    box-shadow: 0 25px 5px rgba(182, 64, 61, 0.7) inset;
+    background: #bc3835; /* background color when mouse rolls over button */
+}
+
+a.css3dbutton:active {
+    top: 9px; /* shift button down 12px when depressed. Change 12px to match button's "bottom" property above */
+    bottom: 0;
+    -moz-box-shadow: 0 -20px 5px darkred inset, 1px 1px 2px #eee;
+    -webkit-box-shadow: 0 -20px 5px darkred inset, 1px 1px 2px #eee;
+    box-shadow: 0 -20px 5px darkred inset, 1px 1px 2px #eee;
+}

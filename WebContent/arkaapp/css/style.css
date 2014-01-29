@@ -1,0 +1,69 @@
+
+
+#page {
+  width: 900px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.slide {
+  margin: 0;
+  padding: 0;
+  width: 420px;
+  height: 50px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#slider-viewport {
+  width: 420px;
+  height: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#slider-shadow {
+  padding: 0 0 55px;
+  background: url(../img/box-shadow.png) center bottom no-repeat;
+}
+
+.slider-controls {
+  overflow: hidden;
+}
+
+/* pagination example */
+.controls, .controls li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#controls {
+  float: right;
+}
+
+#controls li {
+  display: inline;
+}
+
+#controls li a {
+  display: block;
+  float: left;
+  padding: 4px 6px;
+  background: #444;
+  color: white;
+  margin: 0 0 0 4px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#effect-selector {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

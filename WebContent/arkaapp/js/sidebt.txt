@@ -1,0 +1,41 @@
+$(document).delegate('#btnSaveExtra', 'mouseleave', function () { setTimeout(function(){ if (!ItemActionButtons.isHoverMenu) { $('#btnSaveExtraOptions').hide(); }}, 100, 1) });
+ $(document).delegate('#btnSaveExtraOptions', 'mouseenter', function () { ItemActionButtons.isHoverMenu = true; });
+ $(document).delegate('#btnSaveExtraOptions', 'mouseleave', function () { $('#btnSaveExtraOptions').hide(); ItemActionButtons.isHoverMenu = false; });
+
+ var $IsHoverExtraOptionsFlag = 0;
+ $(document).ready(function () {
+  $(".button").button();
+  $(".buttonset").buttonset();
+
+  $('#btnSaveExtra').button({ icons: { primary: "ui-icon-plusthick" } });
+  $('#btnSaveExtraOptions li').addClass('ui-corner-all ui-widget');
+  $('#btnSaveExtraOptions li').hover(
+   function () { $(this).addClass('ui-state-default'); },
+   function () { $(this).removeClass('ui-state-default'); }
+  );
+  $('#btnSaveExtraOptions li').mousedown(function () { $(this).addClass('ui-state-active'); });
+  $('#btnSaveExtraOptions li').mouseup(function () { $(this).removeClass('ui-state-active'); });
+ });
+
+ var ItemActionButtons = {
+  isHoverMenu: false,
+
+  AllowDelete: function (value) { value ? $("#btnDelete").show() : $("#btnDelete").hide() },
+  AllowCancel: function (value) { value ? $("#btnCancel").show() : $("#btnCancel").hide() },
+  AllowSave: function (value) { value ? $("#btnSave").show() : $("#btnSave").hide() },
+  AllowSaveExtra: function (value) { value ? $("#btnSaveExtra").show() : $("#btnSaveExtra").hide() },
+
+  onDeleteClick: function () { },
+  onCancelClick: function () { },
+  onSaveClick: function () { },
+  onSaveExtraClick: function () {
+   $('#btnSaveExtraOptions').toggle();
+
+   var btnLeft = $('#divSaveButton').offset().left;
+   var btnTop = $('#divSaveButton').offset().top + $('#divSaveButton').outerHeight(); // +$('#divSaveButton').css('padding');
+   var btnWidth = $('#divSaveButton').outerWidth();
+   $('#btnSaveExtraOptions').css('left', btnLeft).css('top', btnTop);
+  },
+  SaveAndNewClick: function () { },
+  SaveAndCopyClick: function () { }
+ }
