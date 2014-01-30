@@ -209,7 +209,7 @@ font-weight: bold;
 	background: url("https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/logo.png") no-repeat scroll 0 top/ contain
 		rgba(0, 0, 0, 0);
 	height: 87px; 
-	width: 220px; 
+	width: 193px; 
 	float:left;
 }
 
@@ -217,9 +217,10 @@ font-weight: bold;
 #templatemo_header #templatemo_menu {
 	display: inline-block;
 	width: 774px;
-	 float: right;
-	 margin-top: 20px;
-}
+	margin-top: 21px;
+/* 	margin-left: -25;
+	position: fixed;
+ */}
 
 #templatemo_menu ul {
 	float: right;
@@ -451,7 +452,7 @@ border-top: 12px solid #D60000; */
 	behavior: url("/horizontal/menuh/cssmenu.htc");
 	height: 40px;
 /*	background: #D60000 url(bg.gif) repeat-x 0 0;*/
- background:rgb(82, 83, 87);
+    background:rgb(82, 83, 87);
 	border: 5px solid #0000;
 	position: relative; /*! for IE htc*/
 	z-index: 50; /*H2*/
@@ -462,9 +463,9 @@ border-top: 12px solid #D60000; */
 
 .menuH li {
 	background: #587285;
-box-shadow: inset 0 3px #2f4351;
+	box-shadow: inset 0 3px #2f4351;
 	display: inline-block;
-	padding: 4px 37.8px;
+	padding: 4px 41.8px;
 	border: solid 1px; 
 	width:109px !important;
 	text-align: center;
@@ -473,7 +474,7 @@ box-shadow: inset 0 3px #2f4351;
 
 .menuH li:hover,.menuH li.onhover {
 	background: #FFEAEA url(bg.gif) repeat-x 0 -45px;
-	padding: 4px 37.8px;
+	 
 }
 
 ul.menuH a {
@@ -490,7 +491,7 @@ ul.menuH a {
 	cursor: pointer;
 }
 .menuH li.secondsub:hover ul{
-	left : 183px !important;
+	left : 190px !important;
 	width: 223x !important;
 }
 
@@ -527,7 +528,7 @@ ul.menuH a {
 
 /*######sub level###########*/
 ul.menuH ul {
-	width: 259px;
+	width: 267px;
 position: absolute;
 left: -9999px;
 background: none;
