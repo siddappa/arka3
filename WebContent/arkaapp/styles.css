@@ -160,10 +160,10 @@ margin: 0 auto;
 .container{
 	width: 950px;
 	margin: 0px auto;
-	
 	background: rgb(82, 83, 87);
 	border: solid 5px;
-  overflow: hidden;
+    overflow: hidden;
+    
 }
 }
 
@@ -329,8 +329,8 @@ transition: color 0.25s ease-in-out;
 
 .scrllingText{ 
 	 font-family: niconne !important;
-    font-size: 35px;
-    margin: -50px 0px 1px 654px;
+  font-size: 31px;
+margin: -32px 0px 1px 637px;
     position: relative;  
     z-index: 100;
     color: red;
@@ -348,4 +348,14 @@ transition: color 0.25s ease-in-out;
 		background-color: #fff; 
 		color: #000; 
 		white-space: nowrap; */
+}
+
+.loadingimag{
+background: url(https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/loading.GIF) center no-repeat;
+margin: 0px auto;
+width: 100%;
+height: 100%;
+	 
+	
+	
 }

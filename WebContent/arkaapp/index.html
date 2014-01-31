@@ -2,10 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <!-- <link href="js/lib/smoothDivScroll.css" rel="stylesheet"/> -->
-<script type="text/javascript" src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/js/lib/jquery-1.7.2.min.js"> </script>
-<link rel="stylesheet" href="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/js/lib/flexslider.css" type="text/css" media="screen" />
- 	<link rel="stylesheet" href="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/css/slidorion.css" />
-	
+<script type="text/javascript"
+	src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/js/lib/jquery-1.7.2.min.js"> </script>
+<script type="text/javascript"
+	src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/js/lib/textEffect.jquery.js"> </script>
+
+
+<link rel="stylesheet" href="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/js/lib/flexslider.css"
+	type="text/css" media="screen" />
+<link rel="stylesheet" href="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/css/slidorion.css" />
+
 <!-- <script src="js/lib/jquery-ui-1.10.3.custom.min.js"> </script>
 <script src="js/lib/jquery.mousewheel.min.js"> </script>
 
@@ -19,114 +25,59 @@
 </head>
 
 <body>
-	<div class="container">
-	<div id="headerContent"></div>
-	<div id="middleContent">
-		<!--image slider -->
-		<div class="flexslider">
-			<ul class="slides">
-            <li>
-  	    	    <img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Bedroom_12.jpg" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_CR_1.JPG" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Kitchen_12.jpg" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_TV_2.jpg" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Workstation_11.jpg" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Bedroom_22.jpg" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Kitchen_2.jpg" />
-  	    		</li>
-          </ul>
-		</div>
-		<!--End of image slider -->
-		<div class="scrllingText">For the Quality of Life style..</div>
-		<div class="goldtext"><a href="http://htmlpreview.github.io/?https://github.com/siddappa/arka3/blob/master/WebContent/projectpage.html" class="onlytext">Recently Completed Projects</a></div>
-	 	<div id="wel" style="position: absolute;margin: -94px 0px 0px 703px;">
-			<p class="welc">WELCOME TO </p> <p class="welc" style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ARKA INTERIO</p>
-			  	<nav class="cl-effect-20" style="margin-top: 9px;  margin-left: -27px;" >
-					<a href="#" id="completeproject" class="ss" ><span  class="custombbtn" style="height: 29px;
-width: 120px;
-text-align: center;
-line-height: 30px;
-}" data-hover="Read More  >>">Read More >></span></a>
+    <div class="loadingimag"></div>  
+	<div class="container" style="display: none;">
+		<div id="headerContent"></div>
+		<div id="middleContent">
+			<!--image slider -->
+			<div class="flexslider">
+				<ul class="slides">
+					<li><img
+						src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Bedroom_12.jpg" /></li>
+					<li><img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_CR_1.JPG" />
+					</li>
+					<li><img
+						src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Kitchen_12.jpg" /></li>
+					<li><img src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_TV_2.jpg" />
+					</li>
+					<li><img
+						src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Workstation_11.jpg" /></li>
+					<li><img
+						src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Bedroom_22.jpg" /></li>
+					<li><img
+						src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/images/imagesslide/Arka_Kitchen_2.jpg" /></li>
+				</ul>
+			</div>
+			<!--End of image slider -->
+			<div class="scrllingText">For the Quality of Life style..</div>
+			<div class="goldtext">
+				<a
+					href="http://htmlpreview.github.io/?https://github.com/siddappa/arka3/blob/master/WebContent/projectpage.html"
+					class="onlytext">Recently Completed Projects</a>
+			</div>
+			<div id="wel"
+				style="position: absolute; margin: -105px 0px 0px 621px; display: none;">
+				<p class="welc">WELCOME TO</p>
+				<p class="welc" style="color: white; margin-left: 3px;">ARKA
+					INTERIO</p>
+				<nav class="cl-effect-20 cutozoom"
+					style="margin-top: 9px; margin-left: 20px;">
+					<a href="#" id="completeproject" class="ss"><span
+						class="custombbtn"
+						style="height: 29px; width: 120px; font-size: 13px; text-align: center; display: none; line-height: 30px;"
+						data-hover="Read More  >>">Read More &lt;&lt;</span></a>
 				</nav>
+			</div>
+
 		</div>
 		
-	</div>
-	<div id="footerContent"></div>
-</body>
-	<script  type="text/javascript" src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/js/lib/jquery.flexslider.js"></script>
-	
-	<script type="text/javascript">
-			$(window).load(function() {
-				/*$("#completeproject").click(function(){
-						$("#middleContent").hide(100);
-						$("#middleContent").load('projectpage.html');
-						$("#middleContent").show('slow');
-
-				});*/
-			  $('.flexslider').flexslider({
-			    animation: "fade",
-			    easing: "swing",  
-				 
-				slideshowSpeed: 3500,
-				animationSpeed: 350, 
-				 
-				/* controlNav: false,              
-				directionNav: false,
-				pausePlay: false,
-				pauseText: 'Pause',            
-				playText: 'Play' */
-				//after: function(){$(this).flexslider('slideshowSpeed',1000)}
-			  });
-			  
-					 var blink = function() {
-					    $('.goldtext').animate({
-					        opacity: '0'
-					        
-          						 
-					    }, function(){
-					    
-					        $(this).animate({
-					            opacity: '1'
-					            
-					        }, blink);
-					    });
-					}
-   
-			  blink();   
-			function loop() {
-			 
-		      $('.scrllingText').css({right:-320});
-		        $('.scrllingText').animate ({
-		            right: '+=1380',
-		        }, 16000, 'linear', function() {
-		       loop();
-		        });
-		    }
-	        
-	    loop();
-			
-			    
-		});
 		
-		$(document).ready(function(){
-		/*  $("body").smoothDivScroll({
-					autoScrollingMode: "always",
-					autoScrollDirection: "endlessLoopRight",
-					autoScrollInterval: 10, 
-					autoScrollStep: 2 
-			});  */
-		})
-	</script>
+		<div id="footerContent"></div>
+		</div>
+</body>
+<script type="text/javascript" src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/js/lib/jquery.flexslider.js"></script>
+ 
+<script type="text/javascript" src="https://rawgithub.com/siddappa/arka3/master/WebContent/arkaapp/js/arkainterio.js"></script>
+ 
+ 
 </html>

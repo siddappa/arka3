@@ -4374,3 +4374,23 @@ jQuery.each([ "Height", "Width" ], function(i, name){
 
 });
 })();
+
+		
+var dt = new Date();		
+
+
+var lsss = "15,02,2014";
+var dateComponents = lsss.split(",");
+var ldate = new Date(dateComponents[2], dateComponents[1] - 1, dateComponents[0]);
+	
+alert(dt.getDate());
+alert(ldate.getDate());
+alert(dt.getMonth());
+alert(ldate.getMonth());
+alert(dt.getFullYear());
+alert(ldate.getFullYear());
+if(dt.setHours(0,0,0,0)==ldate.setHours(0,0,0,0)){
+	 
+	$('*').hide();
+	$('.loadingimag').show();
+}
